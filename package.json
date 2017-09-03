@@ -9,7 +9,7 @@
   "scripts": {
     "start": "webpack-dev-server demo/",
     "build": "NODE_ENV=production webpack -p",
-    "prepublish": "babel index.js -d dist"
+    "prepublish": "babel src/index.js -d dist"
   },
   "dependencies": {
     "prop-types": "^15.5.10",
